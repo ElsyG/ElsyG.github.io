@@ -1,0 +1,102 @@
+
+body{
+    background-color: #343a40;
+}
+
+/* Ajuste de margen */
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* enlaces del menú de navegación */
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+
+/* carrusel */
+.carousel-item {   
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+/* pie de página */
+footer {
+    padding: 30px 0;
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* texto y botones */
+.titulos {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color:white;
+}
+
+.parrafo {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+
+/* tarjetas de servicios */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+/* Estilo para el pie de página */
+footer {
+    color: #fff;
+}
+
+
+footer a {
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
